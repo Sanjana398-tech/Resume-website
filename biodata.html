@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio-data | Sanjana N Naik</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #2c3e50;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        /* BIODATA CONTAINER */
+        .biodata-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            animation: fadeIn 1s ease-in;
+        }
+
+        .header-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header-section img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+        }
+
+        .header-section h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .header-section p {
+            margin-top: 8px;
+            color: #555;
+        }
+
+        /* SECTION TITLES */
+        .section-title {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            width: 30%;
+            background: #ecf0f1;
+            color: #2c3e50;
+        }
+
+        /* DECLARATION */
+        .declaration {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .signature {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="biodata.html">Bio-data</a>
+</nav>
+
+<!-- BIODATA CONTENT -->
+<div class="biodata-container">
+
+    <!-- HEADER -->
+    <div class="header-section">
+        <img src="/images/picc.png.jpeg" alt="Profile Photo">
+        <div>
+            <h1>Sanjana N Naik</h1>
+            <p>Computer Science Engineering Student</p>
+        </div>
+    </div>
+
+    <!-- PERSONAL DETAILS -->
+    <div class="section-title">Personal Details</div>
+    <table>
+        <tr><th>Full Name</th><td>Sanjana N Naik</td></tr>
+        <tr><th>Date of Birth</th><td>04-05-2005</td></tr>
+        <tr><th>Gender</th><td>Female</td></tr>
+        <tr><th>Marital Status</th><td>Unmarried</td></tr>
+        <tr><th>Nationality</th><td>Indian</td></tr>
+    </table>
+
+    <!-- CONTACT DETAILS -->
+    <div class="section-title">Contact Details</div>
+    <table>
+        <tr><th>Email</th><td>sn092176@gmail.com</td></tr>
+        <tr><th>Mobile</th><td>+91 9663277840</td></tr>
+        <tr><th>Address</th><td>Karnataka, India</td></tr>
+    </table>
+
+    <!-- EDUCATIONAL DETAILS -->
+    <div class="section-title">Educational Details</div>
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>B.E (CSE)</td>
+            <td>AGMR college of Engineering and Technology,Varur , Hubli-Dharwad</td>
+            <td>2023 – 2027</td>
+        </tr>
+        <tr>
+            <td>PUC</td>
+            <td>Govt PU college Baada College</td>
+            <td>2021 – 2023</td>
+        </tr>
+        <tr>
+            <td>SSLC(CBSE)</td>
+            <td>Jawahar Navodaya Vidyalaya North Canara</td>
+            <td>2016-2021</td>
+        </tr>
+    </table>
+
+    <!-- OTHER DETAILS -->
+    <div class="section-title">Other Details</div>
+    <table>
+        <tr><th>Languages Known</th><td>English, Kannada, Hindi</td></tr>
+        <tr><th>Hobbies</th><td>Coding, Reading, Learning DSA</td></tr>
+        <tr><th>Strengths</th><td>Self-motivated, Quick learner, Team player</td></tr>
+    </table>
+
+    <!-- DECLARATION -->
+    <div class="section-title">Declaration</div>
+    <p class="declaration">
+        I hereby declare that the above information is true and correct to the best of my knowledge and belief.
+    </p>
+
+    <div class="signature">
+        <p><b>Place:</b> Karnataka</p>
+        <p><b>Signature:</b> Sanjana N Naik</p>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Sanjana N Naik | Bio-data
+</footer>
+
+</body>
+</html>
